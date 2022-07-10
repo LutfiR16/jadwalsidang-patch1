@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(12, 11, 11);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}

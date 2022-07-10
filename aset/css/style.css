@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loginpage .card-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.loginpage .content {
+    background-color: wheat;
+}
+
+.loginpage .form-login {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage .form-login label, .form-login button {
+    margin: 20px 0;
+}
+
+.loginpage .form-login input {
+    padding: 10px;
+}
+
